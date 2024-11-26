@@ -95,12 +95,20 @@ h4{
   margin-bottom: 10px;
 }
 
-.oqe,.oqe1{
+.oqe{
   display: flex;
   justify-content: center; /* Centraliza os itens dentro da div horizontalmente */
   align-items: center; /* Centraliza os itens dentro da div verticalmente */
   flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
   margin-bottom: 10px;
+}
+
+.oqe1{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /* Centraliza os itens dentro da div horizontalmente */
+  align-items: center; /* Centraliza os itens dentro da div verticalmente */
+  flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
 }
 
 a:hover {
