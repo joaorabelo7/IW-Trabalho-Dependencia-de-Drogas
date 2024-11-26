@@ -202,3 +202,33 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+const firstMoreInfo = document.getElementById("more-info-1");
+const secondMoreInfo = document.getElementById("more-info-2");
+const thirdMoreInfo = document.getElementById("more-info-3");
+
+const closeBtnIds = ["closeBtn-1", "closeBtn-2", "closeBtn-3"];
+
+for (const id of closeBtnIds) {
+  const closeBtn = document.getElementById(id);
+  closeBtn.addEventListener("click", closeModal);
+}
+
+firstMoreInfo.onclick = () => openModal("firstModal");
+secondMoreInfo.onclick = () => openModal("secondModal");
+thirdMoreInfo.onclick = () => openModal("thridModal");
+
+let openedModal;
+
+// Function to open the modal
+function openModal(id) {
+  openedModal = id;
+  const modal = document.getElementById(id);
+  modal.style.display = "block";
+}
+
+// Function to close the modal
+function closeModal() {
+  const modal = document.getElementById(openedModal);
+  modal.style.display = "none";
+}
