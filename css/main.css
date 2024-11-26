@@ -95,12 +95,20 @@ h4{
   margin-bottom: 10px;
 }
 
-.oqe,.oqe1{
+.oqe{
   display: flex;
   justify-content: center; /* Centraliza os itens dentro da div horizontalmente */
   align-items: center; /* Centraliza os itens dentro da div verticalmente */
   flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
   margin-bottom: 10px;
+}
+
+.oqe1{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /* Centraliza os itens dentro da div horizontalmente */
+  align-items: center; /* Centraliza os itens dentro da div verticalmente */
+  flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
 }
 
 a:hover {
@@ -1737,4 +1745,111 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* Style the Modal (Hidden by default) */
+.modal {
+  display: none;  /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Close Button */
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.a-modal-1:hover
+{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.a-modal-2:hover
+{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.a-modal-3:hover
+{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content-modal-1 p,li{
+  font-size: 18px;
+}
+.content-modal-2 p,li{
+  font-size: 18px;
+}
+.content-modal-3 p,li{
+  font-size: 18px;
+}
+
+.content-modal-1, .content-modal-2, .content-modal-3{
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+.content-modal-1 h2,h3,h4{
+  color: black;
+}
+.content-modal-2 h2,h3,h4{
+  color: black;
+}
+.content-modal-3 h2,h3,h4{
+  color: black;
+}
+
+.a-modal-1{
+  display: flex;
+  justify-content: center;
+}
+.a-modal-2{
+  display: flex;
+  justify-content: center;
+}
+.a-modal-3{
+  display: flex;
+  justify-content: center;
+}
+
+.blogs{
+  display: flex;
+  justify-content: center;
 }
