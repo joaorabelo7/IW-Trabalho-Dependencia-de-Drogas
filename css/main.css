@@ -1748,7 +1748,7 @@ section,
 }
 
 /* Style the Modal (Hidden by default) */
-.modal {
+.modal{
   display: none;  /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 99999; /* Sit on top */
@@ -1835,7 +1835,7 @@ section,
 .content-modal-3 h2,h3,h4{
   color: black;
 }
-li{
+.modal-li{
   color: black;
 }
 
@@ -1855,4 +1855,8 @@ li{
 .blogs{
   display: flex;
   justify-content: center;
+}
+
+h4{
+  color: white;
 }
