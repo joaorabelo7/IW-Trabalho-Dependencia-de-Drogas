@@ -1,4 +1,4 @@
-#[ https://joaorabelo7.github.io/IW-Trabalho-Dependencia-de-Drogas/](https://joaorabelo7.github.io/IW-Trabalho-Dependencia-de-Drogas/)
+#[ https://joaorabelo7.github.io/IW-Trabalho-Dependencia-de-Drogas/](https://iw-dependencia-drogas.netlify.app/)
 
 
 
